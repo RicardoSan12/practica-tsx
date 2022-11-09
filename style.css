@@ -1,0 +1,33 @@
+h1,
+p {
+  font-family: Lato;
+}
+input {
+  border: none;
+  outline: none;
+}
+
+body {
+  background-color: rgb(0, 17, 172);
+}
+.App {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  color: white;
+}
+
+.Form form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+Form input {
+  margin: 8px 5px;
+  min-width: 220px;
+  padding: 8px 10px;
+  background-color: rgb(97, 19, 0);
+}
+.Form input:focus {
+  color: rgb(0, 255, 42);
+}
